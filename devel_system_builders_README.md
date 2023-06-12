@@ -20,11 +20,19 @@ https://opensource.com/article/20/12/52-bit-arm64-kernel
 I made this to test on the apple m1 with UTM with 'hypervisor' set to on.
 The machine  expects 16K or 16K pages but the default in el8 is detected as 64K.
 
+* New builds will be made with mock.
 
-Compile your own with:
+Compile your own with mock with:
+<code>
+mock -r rocky-8-aarch64 kernel-4.18.0-477.13.1.el8_8.2_16K_pages.src.rpm --without debug --without debuginfo --without kabichk --enablerepo=devel
+</code>
+
+
+Compile your own using manual method with:
 <code>
 rpmbuild -bb --target=$(uname -m) kernel.spec --without debug --without debuginfo --without kabichk kernel.spec 2> build-err.log | tee build-out.log
 </code>
+*Then followup with the -bs if you need it.
 
 *Note: patches have been included for testing seperate but are already in the SRPM/Source.
 Debug patch included too incase you want to rebuild with that enabled.
