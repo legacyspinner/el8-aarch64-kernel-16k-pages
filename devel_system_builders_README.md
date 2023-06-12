@@ -1,3 +1,5 @@
+CONSTRUCTION BELOW IS FOR DEVEL/SYSTEM BUILDERS ONLY!
+
 EL8 aarch64 kernel with 16K cpu pages enabled. 
 *Warning: This is only intented for testing as I built it with kabichk disabled.
 
@@ -27,11 +29,6 @@ rpmbuild -bb --target=$(uname -m) kernel.spec --without debug --without debuginf
 *Note: patches have been included for testing seperate but are already in the SRPM/Source.
 Debug patch included too incase you want to rebuild with that enabled.
 
-
-<hr>
-<hr>
-CONSTRUCTION BELOW IS FOR DEVEL/SYSTEM BUILDERS ONLY!
-<hr>
 *Its unrelated to the rebuilt kernel-16K itself, but as a pre-req I should mention for anyone else trying
 to rebuild/clone. 
 
