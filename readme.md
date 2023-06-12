@@ -16,7 +16,7 @@ For configuration comparision:
 In UTM I have 8 cores enabled with 8G memory.
 
 This is the 16K pages version made specifically to match the apple m1 Native HW.
-Kernel pages is aka granular kernel* 
+Kernel pages is aka granular kernel
 
 ### WARNING: 
 -This 16K version 'may' be more buggy than the 4K version, not sure yet.
