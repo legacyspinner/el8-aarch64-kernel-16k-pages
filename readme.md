@@ -1,5 +1,7 @@
 # 16K pages, BUILDING NOW! DO NOT USE THIS YET.
 # *snagged a bug quick, I'll work this out soon.
+# *I think it came from my UNCLEAN HOST Target I installed from that had too much muck in /boot and EFI
+# *I'll remove this message if a clean host install works from the repo install.
 
 <hr>
 <hr>
