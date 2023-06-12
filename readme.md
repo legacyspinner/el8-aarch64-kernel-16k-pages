@@ -24,6 +24,8 @@ Kernel pages is aka granular kernel*
    -I plan on rebuilding this again soon.
    
  # Several lockups(freezes with no error mesgs) have occured with this current build.
+ 
+ *Try testing it with different video drivers and different QEMU versions.
    
 
 See for yourself! Ready set go?
