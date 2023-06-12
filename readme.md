@@ -24,31 +24,13 @@ It seems really fast to me, now with 'Use Hypervisor' ticked.
 
 I also have 8 cores enabled with 8G memory.
 
-*Next up lets see how fast the M1 can go on UTM with el8, with native 16K pages, w00t!
-I did this so I could build faster packages for the Rpi's, before It would take me over a day to compile
-a kernel native on a RPi4, or a not very long with CROSS ofc, but I dont want to use cross. I wanted NATIVE
-and now I have it! For testing only ofc, bugs included! Soon, I'll get back to my goal when I started this, 
-which spawned from another project. Hopefully now I can make arm packages NATIVE and FAST. 
+Unscientific comparision:
+4K cpu host kernel compile time on UTM(m1)
+On the 4k host, btop showed the host Apple OS with m1 running 96% cpu at 70 deg c, with a loag avgs in range of , 9.2 7.4, 6.18
 
-
-***UPDATE: Yes, my mac m1 with UTM running el8 on aarch64 is blazing fast now! I just rebuilt this projects
-kernel in less than an hour! Host didnt crank on its fan very much, that I could hear :)
-
-***2nd test run: btop shows the host Apple OS with m1 running 96% cpu at 70 deg c, with a loag avg right now of , 9.2 7.4, 6.18
-So the hardware is being utilized very well. 
-
-
-This is fast/per watt, really fast!
-
-*I'm going to bump the spec and time it now!
-Testing123:
-<code>
 time rpmbuild -ba --target=$(uname -m) kernel.spec --without debug --without debuginfo --without kabichk kernel.spec 2> build-err.log | tee build-out.log
-</code>
-
 Results:
-Ok ~15min. Checking again to confirm.
-
+real 28m49.873s user 153m25.928s sys 17m43.179s
 
 
 
