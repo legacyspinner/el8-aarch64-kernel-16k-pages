@@ -30,6 +30,18 @@ I think I can downgrade to another GPU(or none) driver in UTM.
 
 *Try testing it with different video drivers and different QEMU versions. *I have tried all the down to QEMU 2.10 ARM/ and still works, not sure which is most stable yet.
 
+
+# GPU Driver Testing on Gnome:
++Virtio-gpu-pci *seems to be the default, works: glxgears: llvmpipe ~800FPS
+
+
+
+
+
+
+
+
+
 See for yourself! Ready set go?
 <hr>
 <hr>
