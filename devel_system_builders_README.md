@@ -7,7 +7,7 @@ The machine  expects 16K or 16K pages but the default in el8 is detected as 64K.
 
 Compile your own with:
 <code>
-rpmbuild -ba --target=$(uname -m) kernel.spec --without debug --without debuginfo --without kabichk kernel.spec 2> build-err.log | tee build-out.log
+rpmbuild -bb --target=$(uname -m) kernel.spec --without debug --without debuginfo --without kabichk kernel.spec 2> build-err.log | tee build-out.log
 </code>
 
 *Note: patches have been included for testing seperate but are already in the SRPM/Source.
