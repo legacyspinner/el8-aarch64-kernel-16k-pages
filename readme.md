@@ -12,19 +12,11 @@ In UTM I have 8 cores enabled with 8G memory.
 Now, you can install a new kernel or upgrade the old one and test with 16K pages.
 
 It seems really fast to me as the 4K version does, now with 'Use Hypervisor' ticked.
-*Compared to when it was using softmmu, this and the 4K build are both SMOKING-FAST.
-*This is like real decent aarch64 speed now for development, no cross needed. Seems to have brought
-out the potential of the machine, I'm very happy with my compile testing so far.
-
 *I assume this is the mac equivalent of KVM, but I could be wrong.
 
 This is the 16K pages version made specifically to match the apple m1 Native HW.
 Kernel pages is aka granular kernel* 
 
-I did this so I could build faster packages for the Rpi's, before It would take me over a day to compile
-a kernel native on a RPi4, or a not very long with CROSS ofc, but I dont want to use cross. I wanted NATIVE
-and now I have it! For testing only ofc, bugs included! Soon, I'll get back to my goal when I started this, 
-which spawned from another project. 
 
 
 See for yourself! Ready set go?
