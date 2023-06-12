@@ -2,11 +2,12 @@ Wow , I just love to fix stuff that is not broken and to break stuff that is fix
 <hr>
 
 # To test it in a virtual environment on a el8.x aarch64 install. 
-In UTM I have 8 cores enabled with 8G memory.
 
 For example, if you have
 a el8-aarch64 installed already in UTM on a Apple M1 but its running in software mode.
 That was the only way you could normally install 7/8 in UTM.
+In UTM I have 8 cores enabled with 8G memory.
+
 
 Now, you can install a new kernel or upgrade the old one and test with 16K pages.
 
