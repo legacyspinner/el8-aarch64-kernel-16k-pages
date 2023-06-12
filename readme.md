@@ -58,7 +58,7 @@ This is what you came for right? Then tick that little box that reads:
 "Use Hypervisor"
 </code>
 *Ofc, we always wanted to 'use Hypervisor' on our aarch64/arm64 machines, now we can with all the el's  *7/8/9 :)
-*7 yet to be rebuilt, buit it will be.
+*7 yet to be rebuilt, but it will be.
 **Updated: I've also starting checking 'Balloon Device' & 'use local time for base clock'
 
   ![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/8.8UTM-VIRT-TICK.png?raw=true)
