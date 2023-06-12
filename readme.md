@@ -32,7 +32,8 @@ I think I can downgrade to another GPU(or none) driver in UTM.
 
 
 # GPU Driver Testing on Gnome:
-+Virtio-gpu-pci *seems to be the default, using QEMU 2.10: works: glxgears: llvmpipe ~800FPS
+ + Virtio-gpu-pci: seems to be the default, using QEMU 2.10: works: glxgears: llvmpipe ~800FPS
+ + Virtio-ramfb: similar, using QEMU 2.10: works: glxgears: llvmpipe ~800FPS
 
 
 
