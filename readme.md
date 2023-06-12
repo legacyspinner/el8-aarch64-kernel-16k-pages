@@ -6,24 +6,25 @@ Wow , I just love to fix stuff that is not broken and to break stuff that is fix
 For example, if you have
 a el8-aarch64 installed already in UTM on a Apple M1 but its running in software mode.
 That was the only way you could normally install 7/8 in UTM.
-In UTM I have 8 cores enabled with 8G memory.
-
-
 Now, you can install a new kernel or upgrade the old one and test with 16K pages.
 
 It seems really fast to me as the 4K version does, now with 'Use Hypervisor' ticked.
 *I assume this is the mac equivalent of KVM, but I could be wrong.
 
+
+For configuration comparision:
+In UTM I have 8 cores enabled with 8G memory.
+
 This is the 16K pages version made specifically to match the apple m1 Native HW.
 Kernel pages is aka granular kernel* 
 
 # WARNING: 
--This 16K version may be more buggy than the 4K version, not sure yet.
+-This 16K version 'may' be more buggy than the 4K version, not sure yet.
   -My 4K version has run for over 24hours on UTM with on minor problems
           but this version sees to have issues not in the 4K setup.
    -I plan on rebuilding this again soon.
    
- # Several lockups(freezes with no error mesgs) have occured with this current build, when under heavy load of  kernel recompiles.
+ # Several lockups(freezes with no error mesgs) have occured, with older builds. I'm now building with mock.
 
 # 64K granular/pages UTM virt, QEMU GPU Driver Testing on Gnome, with "Use Hypervisor" on.
  + Virtio-gpu-pci: works
