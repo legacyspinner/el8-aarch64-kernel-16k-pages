@@ -18,13 +18,11 @@ In UTM I have 8 cores enabled with 8G memory.
 This is the 16K pages version made specifically to match the apple m1 Native HW.
 Kernel pages is aka granular kernel* 
 
-# WARNING: 
+## WARNING: 
 -This 16K version 'may' be more buggy than the 4K version, not sure yet.
   -My 4K version has run for over 24hours on UTM with on minor problems
-          but this version sees to have issues not in the 4K setup.
-   -I plan on rebuilding this again soon.
-   
- # Several lockups(freezes with no error mesgs) have occured, with older builds. I'm now building with mock.
+          but this version initially had not in the 4K setup.
+ I'm now building with mock.
 
 # 64K granular/pages UTM virt, QEMU GPU Driver Testing on Gnome, with "Use Hypervisor" on.
  + Virtio-gpu-pci: works
