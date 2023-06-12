@@ -20,7 +20,7 @@ https://opensource.com/article/20/12/52-bit-arm64-kernel
 I made this to test on the apple m1 with UTM with 'hypervisor' set to on.
 The machine  expects 4K or 16K pages but the default in el7/8 is detected as 64K.
 
-* New builds will be made with mock.
+* Current RPMS in the 16K repo now were built with mock, see logs at sf repo.
 
 Compile your own with mock with:
 <code>
