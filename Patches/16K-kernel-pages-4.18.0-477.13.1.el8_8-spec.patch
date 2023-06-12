@@ -1,0 +1,12 @@
+--- a/kernel.spec.orig
++++ b/kernel.spec.new
+@@ -35,7 +35,8 @@
+ %global zipsed -e 's/\.ko$/\.ko.xz/'
+ %endif
+ 
+-# define buildid .local
++%define buildid _16K_pages
++%define dist .el8_8.1
+ 
+ %define rpmversion 4.18.0
+ %define pkgrelease 477.13.1.el8_8
