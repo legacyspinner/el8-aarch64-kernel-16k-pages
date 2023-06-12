@@ -23,7 +23,7 @@ Kernel pages is aka granular kernel*
           but this version sees to have issues not in the 4K setup.
    -I plan on rebuilding this again soon.
    
- # Several lockups(freezes with no error mesgs) have occured with this current build.
+ # Several lockups(freezes with no error mesgs) have occured with this current build, when under heavy load of  kernel recompiles.
  
  *Try testing it with different video drivers and different QEMU versions.
 I think I can downgrade to another GPU(or none) driver in UTM.
