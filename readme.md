@@ -24,18 +24,12 @@ Kernel pages is aka granular kernel*
    -I plan on rebuilding this again soon.
    
  # Several lockups(freezes with no error mesgs) have occured with this current build, when under heavy load of  kernel recompiles.
- 
- *Try testing it with different video drivers and different QEMU versions.
-I think I can downgrade to another GPU(or none) driver in UTM.
 
-*Try testing it with different video drivers and different QEMU versions. *I have tried all the down to QEMU 2.10 ARM/ and still works, not sure which is most stable yet.
-
-
-# GPU Driver Testing on Gnome, with "Use Hypervisor" on.
+# 64K granular/pages UTM virt, QEMU GPU Driver Testing on Gnome, with "Use Hypervisor" on.
  + Virtio-gpu-pci: works
  + Virtio-ramfb: works
  + Other ones don't bring up X, some not even a console, but most you can all still ssh into.
-
+ + Selecting a different QEMU version did not seem to matter, all the QEMU x.x ARM Virtual Machine ones worked
 
 
 
