@@ -31,10 +31,10 @@ I think I can downgrade to another GPU(or none) driver in UTM.
 *Try testing it with different video drivers and different QEMU versions. *I have tried all the down to QEMU 2.10 ARM/ and still works, not sure which is most stable yet.
 
 
-# GPU Driver Testing on Gnome:
- + Virtio-gpu-pci: works: glxgears: llvmpipe ~800FPS
- + Virtio-ramfb: similar, works: glxgears: llvmpipe ~800FPS
-
+# GPU Driver Testing on Gnome, with "Use Hypervisor" on.
+ + Virtio-gpu-pci: works
+ + Virtio-ramfb: works
+ + Other ones don't bring up X, some not even a console, but most you can all still ssh into.
 
 
 
