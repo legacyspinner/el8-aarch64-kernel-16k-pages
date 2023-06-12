@@ -23,7 +23,8 @@ time rpmbuild -ba --target=$(uname -m) kernel.spec --without debug --without deb
 Results:
 real 28m49.873s user 153m25.928s sys 17m43.179s
 
-Timing 64bit Granular Kernel now, aka cpu pagesize.
+
+Timing a rebuild now with the 64bit Granular Kernel, aka cpu pagesize.
 
 
 
