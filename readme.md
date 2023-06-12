@@ -1,5 +1,7 @@
 16K pages, BUILDING NOW!
 
+***TODO: UPDATE with new * of 16K
+
 
 Wow , I just love to fix stuff that is not broken and to break stuff that is fixed!  :) As told by: My old boss.
 <hr>
@@ -78,6 +80,9 @@ yum install kernel
 </code>
 
 Reboot and check, if all went well:
+
+***TODO: UPDATE with new photos of 16K
+
 
 If so you should see the following or similar.
 ![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/8.8UTM-boot.png?raw=true)
