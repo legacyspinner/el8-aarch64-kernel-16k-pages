@@ -18,7 +18,7 @@ https://opensource.com/article/20/12/52-bit-arm64-kernel
 
 
 I made this to test on the apple m1 with UTM with 'hypervisor' set to on.
-The machine  expects 4K or 16K pages but the default in el8 is detected as 64K.
+The machine  expects 4K or 16K pages but the default in el7/8 is detected as 64K.
 
 * New builds will be made with mock.
 
