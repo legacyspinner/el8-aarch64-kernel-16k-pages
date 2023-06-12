@@ -16,6 +16,7 @@ It seems really fast to me as the 4K version does, now with 'Use Hypervisor' tic
 out the potential of the machine, I'm very happy with my compile testing so far.
 
 *I assume this is the mac equivalent of KVM, but I could be wrong.
+
 This is the 16K pages version made specifically to match the apple m1 Native HW.
 Kernel pages is aka granular kernel* 
 
