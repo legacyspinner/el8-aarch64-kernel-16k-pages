@@ -1,5 +1,5 @@
 # 16K pages, BUILDING NOW! DO NOT USE THIS YET.
-
+*snagged a bug quick, I'll work this out soon.
 
 
 Wow , I just love to fix stuff that is not broken and to break stuff that is fixed!  :) As told by: My old boss.
