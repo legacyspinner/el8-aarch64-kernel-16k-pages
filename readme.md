@@ -10,7 +10,9 @@ That was the only way you could normally install 7/8 in UTM.
 Now, you can install a new kernel or upgrade the old one and test with 16K pages.
 
 It seems really fast to me as the 4K version does, now with 'Use Hypervisor' ticked.
-*Compared to when it was using softmmu, this and the 4K build are both SMOKING-FAST
+*Compared to when it was using softmmu, this and the 4K build are both SMOKING-FAST.
+*This is like real decent aarch64 speed now for development, no cross needed.
+
 *I assume this is the mac equivalent of KVM, but I could be wrong, I'm sure I will be corrected if so!
 
 I also have 8 cores enabled with 8G memory.
