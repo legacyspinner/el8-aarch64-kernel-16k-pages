@@ -1,6 +1,20 @@
 EL8 aarch64 kernel with 16K cpu pages enabled. 
 *Warning: This is only intented for testing as I built it with kabichk disabled.
 
+REFS:
+
+https://www.kernel.org/doc/html/latest/arm64/memory.html
+
+https://www.kernel.org/doc/html/v5.8/arm64/booting.html
+
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/arm64/memory.rst
+
+https://lwn.net/Articles/660632/
+
+https://opensource.com/article/20/12/52-bit-arm64-kernel
+
+
+
 I made this to test on the apple m1 with UTM with 'hypervisor' set to on.
 The machine  expects 16K or 16K pages but the default in el8 is detected as 64K.
 
