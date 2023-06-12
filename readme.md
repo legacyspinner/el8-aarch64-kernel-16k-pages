@@ -48,7 +48,6 @@ yum install kernel
 
 Reboot and check, if all went well:
 
-
 If so you should see the following or similar.
 Don't try the new kernel yet, until you check that "Use Hypervisor" box in UTM.
 ![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/88-64k-utm-boot.png?raw=true)
@@ -58,9 +57,9 @@ This is what you came for right? Then tick that little box that reads:
 <code>
 "Use Hypervisor"
 </code>
-
 *Ofc, we always wanted to 'use Hypervisor' on our aarch64/arm64 machines, now we can with all the el's  *7/8/9 :)
-*7 yet to be rebuilt, but its easy peasy.
+*7 yet to be rebuilt, buit it will be.
+**Updated: I've also starting checking 'Balloon Device' & 'use local time for base clock'
 
   ![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/8.8UTM-VIRT-TICK.png?raw=true)
 
