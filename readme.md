@@ -18,9 +18,10 @@ This is the 16K pages version made specifically to match the apple m1 Native HW.
 Kernel pages is aka granular kernel* 
 
 # WARNING: 
-**This 16K version may be more buggy than the 4K version, not sure yet.**
-**My 4K version has run for over 24hours on UTM with no problems, but this version
+-This 16K version may be more buggy than the 4K version, not sure yet.
+-My 4K version has run for over 24hours on UTM with no problems, but this version
 sees to have issues not in the 4K setup.
+-I plan on rebuilding this again soon.
 
 See for yourself! Ready set go?
 <hr>
