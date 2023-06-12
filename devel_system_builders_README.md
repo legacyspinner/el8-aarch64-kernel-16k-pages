@@ -64,32 +64,4 @@ Alma 8.7 has another iso: AlmaLinux-8.7-update-1-aarch64-minimal.iso
 Alma 8.8: INTRAMFS: Failes on my setup.
 ![alma 8.8](/assets/images/88almanope.png?raw=true)
 
-*You can use a earlier ISO and just upgrade if you need to. 
-
-*Some builds on my setup starting with 8.5/8.6, also have issues with grabbing the console, or keeping it. 
-They will install/ but lose video, though you can still get to them via ssh.
-*Perhaps these ones later do run on other setups, its possible it is just my system that's the problem!
-
-<br>
-
-So I just working around some issues building, for now instead of:
-trying to fix everything on the planet route first. 
-Some bridges you just cross instead of trying to hammer every
-nail that is sticking up. People get mad at me if/when I even happen
-to mention it 'could be' a bug that is not ME(TM) ,
-  
-  Often then this happens,asking next lines;
-  -did you fix it?
-  -where is your patch(s)?
-  -did you join the forumns and post it?
-  -why didn't you post the error?
-   then
-  -why did  you mention it?
-  -etc, etc, etc, etc. etc
-   done!
-
-I will explain what it took later to do what, in more detail. It's very early to be chasing wabbits everywhere down holes!
-All bridges do not belong to me, nor is it my duty to go saying others bridges need work.
-I do not get paid to do that!
-
-I know how to cross bridges without meeting Billy Goat Gruff each time, besides it is not always under the bridge! thank you!
+*You can use a earlier ISO and just upgrade it.
