@@ -1,7 +1,7 @@
 # 16K pages, BUILDING NOW! DO NOT USE THIS YET.
-# *snagged a bug quick, I'll work this out soon. Install worked fine from manual install as you can see from photos below, but a follow up failed.
-# *I think it came from my UNCLEAN HOST Target that I should not have reused.
-# *I'll remove this message if a clean host install works from the repo install, almost ready.
+# Wasnt a bug, it was my mistake following up.
+# Process is good, removing this warning.
+# 
 
 <hr>
 <hr>
