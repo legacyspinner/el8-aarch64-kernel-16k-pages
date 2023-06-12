@@ -23,7 +23,7 @@ Kernel pages is aka granular kernel*
           but this version sees to have issues not in the 4K setup.
    -I plan on rebuilding this again soon.
    
- # Several lockeds have occured with this current build.
+ # Several lockups(freezes with no error mesgs) have occured with this current build.
    
 
 See for yourself! Ready set go?
