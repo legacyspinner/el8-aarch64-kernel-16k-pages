@@ -57,6 +57,7 @@ Reboot and check, if all went well:
 
 
 If so you should see the following or similar.
+Don't try the new kernel yet, until you check that "Use Hypervisor" box in UTM.
 ![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/88-64k-utm-boot.png?raw=true)
 
 Go ahead and shut down and enable better/faster/stronger Virtualization on your Mac M1 now :)
