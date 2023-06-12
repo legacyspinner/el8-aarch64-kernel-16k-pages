@@ -1,8 +1,7 @@
 # 16K pages, BUILDING NOW! DO NOT USE THIS YET.
-# This was cloned from my 4K repo of same name, NOT DONE YET.
-# *snagged a bug quick, I'll work this out soon. Install worked fine from manual install, but a follow up failed.
+# *snagged a bug quick, I'll work this out soon. Install worked fine from manual install as you can see from photos below, but a follow up failed.
 # *I think it came from my UNCLEAN HOST Target that I should not have reused.
-# *I'll remove this message if a clean host install works from the repo install.
+# *I'll remove this message if a clean host install works from the repo install, almost ready.
 
 <hr>
 <hr>
