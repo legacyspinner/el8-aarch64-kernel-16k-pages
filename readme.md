@@ -16,6 +16,8 @@ It seems really fast to me as the 4K version does, now with 'Use Hypervisor' tic
 
 This is the 16K pages version made specifically to match the apple m1 Native HW.
 Kernel pages is aka granular kernel* 
+This 16K version may be more buggy than the 4K version, not sure yet. 
+
 
 
 
