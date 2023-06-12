@@ -81,11 +81,9 @@ yum install kernel
 
 Reboot and check, if all went well:
 
-***TODO: UPDATE with new photos of 16K
-
 
 If so you should see the following or similar.
-![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/8.8UTM-boot.png?raw=true)
+![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/88-64k-utm-boot.png?raw=true)
 
 Go ahead and shut down and enable better/faster/stronger Virtualization on your Mac M1 now :)
 This is what you came for right? Then tick that little box that reads:
@@ -99,15 +97,14 @@ This is what you came for right? Then tick that little box that reads:
   ![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/8.8UTM-VIRT-TICK.png?raw=true)
 
 Then start up the machine again and you can check a couple things:
-![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/8.8UTM-1.png?raw=true)
+![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/88-64k-utm-checks.png?raw=true)
 
 Dmesg output:
 
-![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/8.8UTM-dmesg1.png?raw=true)
-![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/8.8UTM-dmesg2.png?raw=true)
+![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/88-64k-utm-dmesg1.png?raw=true)
 
-Yes, that is 8 cores baby!
-![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/8.8UTM-dmesg-8cores.png?raw=true)
+![8.8-on-Apple-Mac-M1-using-UTM](/assets/images/88-64k-utm-dmesg2.png?raw=true)
+
 
 
 Enjoy!
