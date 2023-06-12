@@ -36,8 +36,8 @@ Kernel pages is aka granular kernel*
 
 
 
-
-See for yourself! Ready set go?
+<hr>
+See for yourself?
 <hr>
 <hr>
 On your UTM installed el8, to test/install to new 16K pages kernel:
