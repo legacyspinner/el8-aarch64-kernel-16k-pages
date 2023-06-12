@@ -2,6 +2,7 @@ Wow , I just love to fix stuff that is not broken and to break stuff that is fix
 <hr>
 
 # To test it in a virtual environment on a el8.x aarch64 install. 
+In UTM I have 8 cores enabled with 8G memory.
 
 For example, if you have
 a el8-aarch64 installed already in UTM on a Apple M1 but its running in software mode.
@@ -15,23 +16,6 @@ It seems really fast to me as the 4K version does, now with 'Use Hypervisor' tic
 out the potential of UTM/qemu on my m1.
 
 *I assume this is the mac equivalent of KVM, but I could be wrong, I'm sure I will be corrected if so!
-
-I also have 8 cores enabled with 8G memory.
-
-Unscientific comparision:
-4K cpu host kernel compile time on UTM(m1)
-On the 4k host, btop showed the host Apple OS with m1 running 96% cpu at 70 deg c, with a loag avgs in range of , 9.2 7.4, 6.18
-
-time rpmbuild -ba --target=$(uname -m) kernel.spec --without debug --without debuginfo --without kabichk kernel.spec 2> build-err.log | tee build-out.log
-Results:
-real 28m49.873s user 153m25.928s sys 17m43.179s
-
-
-Timing a rebuild now with the 64bit Granular Kernel, aka cpu pagesize.
-
-
-
-
 
 
 
