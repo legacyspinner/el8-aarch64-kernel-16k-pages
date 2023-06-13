@@ -80,7 +80,7 @@ Alma 8.7 has another iso: AlmaLinux-8.7-update-1-aarch64-minimal.iso
 8.8 boots: INITRAMFS: Fails on my setup using rocky 8.8:
 ![rocky 8.8](/assets/images/88rockynope.png?raw=true)
 
-Alma 8.8: INTRAMFS: Failes on my setup.
+Alma 8.8: INTRAMFS: Fails on my setup.
 ![alma 8.8](/assets/images/88almanope.png?raw=true)
 
-*You can use a earlier ISO and just upgrade it.
+*Point is, I have to start with a version <= 8.6*, then upgrade it.
