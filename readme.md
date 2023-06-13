@@ -18,23 +18,14 @@ In UTM I have 8 cores enabled with 8G memory.
 This is the 16K pages version made specifically to match the apple m1 Native HW.
 Kernel pagesize is also referred to by developers as granular translation table options or similar.
 
-### WARNING: 
--This 16K version 'may' be more buggy than the 4K version, not sure yet.
-  -My 4K version has run for over 24hours on UTM with on minor problems
-          but this version initially had not in the 4K setup.
- I'm now building with mock.
+*This 16K version and the 4K version built recently with mock only have a few
+minor issues so far for me except for virtio gpu/drm-kms-helper. 
 
 ### 64K granular/pages UTM virt, QEMU GPU Driver Testing on Gnome, with "Use Hypervisor" on.
  + Virtio-gpu-pci: works
  + Virtio-ramfb: works
  + Other ones don't bring up X, some not even a console, but most you can all still ssh into.
  + Selecting a different QEMU version did not seem to matter, all the QEMU x.x ARM Virtual Machine ones worked
-
-
-
-
-
-
 <hr>
 See for yourself?
 <hr>
