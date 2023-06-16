@@ -3,6 +3,19 @@ Wow , I just love to fix stuff that is not broken and to break stuff that is fix
 
 # To test it in a virtual environment on a el8.x aarch64 install. 
 
+### DEVEL ONLY :
+THIS IS NOT A STABLE VERSION, try the 4k version.
+
+
+
+
+
+
+
+
+
+
+
 For example, if you have
 a el8-aarch64 installed already in UTM on a Apple M1 but its running in software mode.
 That was the only way you could normally install 7/8 in UTM.
