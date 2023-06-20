@@ -3,7 +3,7 @@ Wow , I just love to fix stuff that is not broken and to break stuff that is fix
 
 # DEVEL ONLY :
 THIS IS NOT A STABLE VERSION, try the 4k version.
-
+Unusual looping in some tests, maybe be video only not sure yet.
 
 <hr>
 <hr>
@@ -35,17 +35,6 @@ In UTM I have 8 cores enabled with 8G memory.
 This is the 16K pages version made specifically to match the apple m1 Native HW.
 Kernel pagesize is also referred to by developers as granular translation table options or similar.
 
-### This 16K version and the 4K version built recently with mock only have a few minor issues so far for me.
- + when using gnome(console too?)i noticed after a while I lost my connection after a while, on virt ethernet, not sure why yet. host sleep?
- + virtio gpu/drm-kms-helper spews error messages
-
-### 64K granular/pages UTM virt, QEMU GPU Driver Testing on Gnome, with "Use Hypervisor" on.
- + Virtio-gpu-pci: works
- + Virtio-ramfb: works
- + Other ones don't bring up X, some not even a console, but most you can all still ssh into.
- + Selecting a different QEMU version did not seem to matter, all the QEMU x.x ARM Virtual Machine ones worked
-<hr>
-See for yourself?
 <hr>
 <hr>
 On your UTM installed el8, to test/install to new 16K pages kernel:
